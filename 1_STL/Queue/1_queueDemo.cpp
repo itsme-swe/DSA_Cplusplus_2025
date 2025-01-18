@@ -1,5 +1,6 @@
 #include <iostream>
 #include <queue>
+
 using namespace std;
 
 int main()
@@ -19,6 +20,8 @@ int main()
     q.pop();
   }
   cout << endl;
+
+  cout << q.size() << "\n"; // Returns 0 bcoz now it's empty
   return 0;
 }
 
