@@ -20,14 +20,5 @@ int main()
   }
   cout << endl;
 
-  st.pop();
-
-  while (!st.empty())
-  {
-    cout << st.top() << " ";
-    st.pop();
-  }
-  cout << endl;
-
   return 0;
 }
