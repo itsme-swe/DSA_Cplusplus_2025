@@ -1,5 +1,6 @@
 #include <iostream>
 #include <climits>
+
 using namespace std;
 
 int main()
@@ -17,5 +18,6 @@ int main()
   }
 
   cout << "The max value in array is: " << maxVal << endl; // 65
+
   return 0;
 }
